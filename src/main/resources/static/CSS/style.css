@@ -1,0 +1,27 @@
+@charset "ISO-8859-1";
+
+table, td, th{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 20spx;
+}
+footer {
+    text-align: center;
+    padding-top: 100px;
+}
+div#f1 {
+    float: right;
+    width: 400px;
+}
+div#content {
+    float: right;
+    width: 500px;
+}
+.error{
+    font-family: fantasy;
+    color:red;
+}
+.hclass{
+    background-color: fuchsia;
+}

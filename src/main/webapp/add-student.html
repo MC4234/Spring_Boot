@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>SDET WebDev Training</title>
+</head>
+
+
+add-student.html
+<body id="body-id" class="body-class">
+    <link rel="stylesheet" href="../../css/style.css"></link>
+    <img src="../../images/web-dev-2.png" alt="sdet-web"></img>
+    <h2>SDET WEB DEVELOPMENT TRAINING</h2>
+    <div id="participants">
+        <h3>Fill in details to add a new Student</h3>
+        
+        <form action="student/add" method="post">
+            <p>
+                <label for="name">Name:<input type="text" id="name" name="name"></label>
+            </p>
+            <p>
+                <label for="exp">Experience:<input type="text" id="exp" name="exp"></label>
+            </p>
+            
+            <br> <input type="submit" value="Add Student">&nbsp;&nbsp;
+            <button type="reset">Reset</button>
+            <br>
+        </form>
+    </div>
+</body>
+</html>
